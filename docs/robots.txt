@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://t0niske.github.io/aua-maison/sitemap.xml
