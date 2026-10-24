@@ -3,9 +3,9 @@
 Сгенерируйте в ChatGPT, сохраните в `src/assets/img/` под указанным именем (png, jpg или webp) и пересоберите: `node build.js`.
 Пока файла нет, на сайте стоит подписанная заглушка того же размера.
 
-Готово: 0 из 19.
+Готово: 19 из 19.
 
-## ⬜ `hero` — Главный макет: здание с 6 пространствами
+## ✅ `hero` — Главный макет: здание с 6 пространствами
 
 - Формат: 4:3
 - Где на сайте: главная, первый экран (на неё ставятся точки)
@@ -26,7 +26,7 @@ A very small white plaster aroma diffuser (a small rectangular box) stands in ea
 После генерации пришлите картинку — я подгоню точки точно по комнатам.
 ```
 
-## ⬜ `space-otel` — Отель: лобби
+## ✅ `space-otel` — Отель: лобби
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/otel/
@@ -39,7 +39,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-butik` — Бутик
+## ✅ `space-butik` — Бутик
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/butik/
@@ -52,7 +52,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-restoran` — Ресторан
+## ✅ `space-restoran` — Ресторан
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/restoran/
@@ -65,7 +65,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-spa` — Спа
+## ✅ `space-spa` — Спа
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/spa/
@@ -78,7 +78,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-rezidenciya` — Резиденция
+## ✅ `space-rezidenciya` — Резиденция
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/rezidenciya/
@@ -91,7 +91,7 @@ Layout (important, the website places clickable points on these areas): left-bot
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-ofis` — Офис
+## ✅ `space-ofis` — Офис
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/ofis/
@@ -104,7 +104,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-avtosalon` — Автосалон
+## ✅ `space-avtosalon` — Автосалон
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/avtosalon/
@@ -117,7 +117,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-klinika` — Клиника
+## ✅ `space-klinika` — Клиника
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/klinika/
@@ -130,7 +130,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-salon-krasoty` — Салон красоты
+## ✅ `space-salon-krasoty` — Салон красоты
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/salon-krasoty/
@@ -143,7 +143,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `space-fitnes` — Фитнес-клуб
+## ✅ `space-fitnes` — Фитнес-клуб
 
 - Формат: 16:10
 - Где на сайте: /prostranstva/fitnes/
@@ -156,7 +156,7 @@ Layout (important, the website places clickable points on these areas): left —
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
-## ⬜ `family-svezhie-citrusovye` — Свежие и цитрусовые
+## ✅ `family-svezhie-citrusovye` — Свежие и цитрусовые
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -167,7 +167,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: a halved lemon, a whole lime, a bergamot and three basil leaves. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `family-cvetochnye` — Цветочные
+## ✅ `family-cvetochnye` — Цветочные
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -178,7 +178,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: an open rose, a sprig of jasmine and a freesia stem. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `family-gurmanskie` — Гурманские
+## ✅ `family-gurmanskie` — Гурманские
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -189,7 +189,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: a small heap of coffee beans, two vanilla pods and a piece of caramel. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `family-otelnye` — Отельные
+## ✅ `family-otelnye` — Отельные
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -200,7 +200,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: a halved fig, a small tea bowl with tea leaves and a neatly folded towel. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `family-spa-relax` — SPA и релакс
+## ✅ `family-spa-relax` — SPA и релакс
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -211,7 +211,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: a bundle of lavender, a eucalyptus branch and three smooth stones stacked. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `family-parfyumernye` — Парфюмерные
+## ✅ `family-parfyumernye` — Парфюмерные
 
 - Формат: 1:1
 - Где на сайте: /kollekciya/
@@ -222,7 +222,7 @@ Monochrome 3D clay render: everything is made of smooth matte white plaster, no 
 Subject: a minimal sculptural still life made of white plaster: a block of cedar wood, a folded leather glove and a dried tobacco leaf. The objects lie loosely on a low white plinth, centred, with a lot of air around them. A single wisp of translucent white mist curls above the composition. Aspect ratio 1:1.
 ```
 
-## ⬜ `device` — Диффузор Nova на голубом фоне
+## ✅ `device` — Диффузор Nova на голубом фоне
 
 - Формат: 4:5
 - Где на сайте: /usloviya/, /metod/
@@ -234,7 +234,7 @@ Studio product photograph of a compact rectangular aroma diffuser about 20 cm ta
 Приложите фото аппарата из PDF-прайса как референс.
 ```
 
-## ⬜ `og` — Обложка для соцсетей
+## ✅ `og` — Обложка для соцсетей
 
 - Формат: 16:9
 - Где на сайте: превью ссылок
