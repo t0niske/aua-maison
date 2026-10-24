@@ -324,3 +324,9 @@ html.js .rv.in{opacity:1;transform:none}
   .hs-l::before{display:none}
   .stage-art{overflow:hidden;border-radius:var(--r);padding-top:8px}
 }
+
+/* аромамаркетинг: принципы */
+.am-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:14px;counter-reset:a}
+.am-list li{position:relative;padding-left:40px;color:var(--ink2);line-height:1.55;counter-increment:a}
+.am-list li::before{content:counter(a,decimal-leading-zero);position:absolute;left:0;top:1px;font:600 14px/1.5 var(--fd);color:var(--coral-t)}
+.am-list b{color:var(--ink)}

@@ -4,13 +4,13 @@
 
 Сайт: https://t0niske.github.io/aua-maison/
 
-## Структура (19 страниц)
+## Структура (24 страницы)
 - `/` — макет здания с 6 пространствами (каждая точка ведёт на свою страницу)
 - `/prostranstva/` + отель, бутик, ресторан, спа, резиденция, офис — у каждой план с зонами
 - `/kollekciya/` — 32 композиции по 6 семействам
 - `/signature/`, `/metod/`, `/usloviya/`, `/zhurnal/` + 3 статьи, `/kontakty/`
 
-SEO: свой title/description/H1/canonical на каждой странице, schema.org (LocalBusiness, Service, FAQPage, Article, BreadcrumbList, ItemList), sitemap.xml, robots.txt. Ключевые запросы — с модификаторами «премиальная», «фирменный аромат», чтобы не конкурировать с Tynys.
+SEO: свой title/description/H1/canonical на каждой странице, schema.org (LocalBusiness, Service, FAQPage, Article, BreadcrumbList, ItemList), sitemap.xml, robots.txt. Ключевые запросы — те же, что у остальных сайтов сети (сайты вместе занимают выдачу), с премиальным углом: «премиальная», «фирменный аромат», «аромамаркетинг». Пространства без точки на макете главной помечены `home: false` в `src/content.js`.
 
 ## Картинки
 Список и промпты — `IMAGES.md`. Пока рендеров нет, на главной и в пространствах показан чертёж-заглушка. Положение точек — `x`/`y` в `src/content.js`, после генерации рендера их нужно подогнать.

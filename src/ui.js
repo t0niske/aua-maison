@@ -22,7 +22,7 @@ const icon = (n, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" aria-hi
 
 const MENU = [
   ['Пространства', 'prostranstva/'], ['Коллекция ароматов', 'kollekciya/'], ['Фирменный аромат', 'signature/'],
-  ['Метод', 'metod/'], ['Условия', 'usloviya/'], ['Журнал', 'zhurnal/'], ['Контакты', 'kontakty/']
+  ['Аромамаркетинг', 'aromamarketing/'], ['Метод', 'metod/'], ['Условия', 'usloviya/'], ['Журнал', 'zhurnal/'], ['Контакты', 'kontakty/']
 ];
 
 function header() {

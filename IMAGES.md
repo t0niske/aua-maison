@@ -3,7 +3,7 @@
 Сгенерируйте в ChatGPT, сохраните в `src/assets/img/` под указанным именем (png, jpg или webp) и пересоберите: `node build.js`.
 Пока файла нет, на сайте стоит подписанная заглушка того же размера.
 
-Готово: 0 из 15.
+Готово: 0 из 19.
 
 ## ⬜ `hero` — Главный макет: здание с 6 пространствами
 
@@ -101,6 +101,58 @@ The model is centred and occupies about 80% of the width, with air around it. As
 Monochrome 3D clay render: everything is made of smooth matte white plaster, no colours, no textures, no text, no logos, no people. Soft diffused studio light from the upper left, gentle ambient occlusion and soft shadows. Background: seamless pale powder-blue gradient from #C9D8EC at the edges to #E3EBF5 in the centre, fading into the background at the bottom. Calm, premium, minimal, very clean, high detail.
 Subject: an isometric cut-away architectural maquette (like an architect's white study model) of an executive office of a private bank, seen from the front at a 30° angle, the front wall removed so the interior is visible. Furniture and objects are simplified but recognisable.
 Layout (important, the website places clickable points on these areas): left — the reception desk; centre-top — a meeting room with a long table; right — the CEO cabinet with a desk and a bookshelf; centre-bottom — a client lounge with armchairs.
+The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
+```
+
+## ⬜ `space-avtosalon` — Автосалон
+
+- Формат: 16:10
+- Где на сайте: /prostranstva/avtosalon/
+- Alt: Макет автосалона: шоурум, лаунж, зона выдачи, сервис
+
+```text
+Monochrome 3D clay render: everything is made of smooth matte white plaster, no colours, no textures, no text, no logos, no people. Soft diffused studio light from the upper left, gentle ambient occlusion and soft shadows. Background: seamless pale powder-blue gradient from #C9D8EC at the edges to #E3EBF5 in the centre, fading into the background at the bottom. Calm, premium, minimal, very clean, high detail.
+Subject: an isometric cut-away architectural maquette (like an architect's white study model) of a premium car dealership showroom, seen from the front at a 30° angle, the front wall removed so the interior is visible. Furniture and objects are simplified but recognisable.
+Layout (important, the website places clickable points on these areas): left — a showroom with one simplified sports car on a turntable; centre-top — a client lounge with armchairs and a coffee table; right-bottom — a delivery bay with a car under a cloth; right-top — a service reception desk.
+The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
+```
+
+## ⬜ `space-klinika` — Клиника
+
+- Формат: 16:10
+- Где на сайте: /prostranstva/klinika/
+- Alt: Макет клиники: ресепшн, ожидание, коридор, кабинет
+
+```text
+Monochrome 3D clay render: everything is made of smooth matte white plaster, no colours, no textures, no text, no logos, no people. Soft diffused studio light from the upper left, gentle ambient occlusion and soft shadows. Background: seamless pale powder-blue gradient from #C9D8EC at the edges to #E3EBF5 in the centre, fading into the background at the bottom. Calm, premium, minimal, very clean, high detail.
+Subject: an isometric cut-away architectural maquette (like an architect's white study model) of a private aesthetic medicine clinic, seen from the front at a 30° angle, the front wall removed so the interior is visible. Furniture and objects are simplified but recognisable.
+Layout (important, the website places clickable points on these areas): left — a reception desk; centre — a waiting area with soft armchairs and a plant; right-bottom — a corridor with several doors; right-top — a consultation room with a desk and two chairs.
+The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
+```
+
+## ⬜ `space-salon-krasoty` — Салон красоты
+
+- Формат: 16:10
+- Где на сайте: /prostranstva/salon-krasoty/
+- Alt: Макет салона красоты: ресепшн, ожидание, кабинет, окрашивание
+
+```text
+Monochrome 3D clay render: everything is made of smooth matte white plaster, no colours, no textures, no text, no logos, no people. Soft diffused studio light from the upper left, gentle ambient occlusion and soft shadows. Background: seamless pale powder-blue gradient from #C9D8EC at the edges to #E3EBF5 in the centre, fading into the background at the bottom. Calm, premium, minimal, very clean, high detail.
+Subject: an isometric cut-away architectural maquette (like an architect's white study model) of a premium beauty salon, seen from the front at a 30° angle, the front wall removed so the interior is visible. Furniture and objects are simplified but recognisable.
+Layout (important, the website places clickable points on these areas): left — a reception desk with flowers; centre-top — a waiting area with a sofa and a tea table; right — a private treatment room with a beauty chair; centre-bottom — a hair colouring area with two salon chairs and mirrors.
+The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
+```
+
+## ⬜ `space-fitnes` — Фитнес-клуб
+
+- Формат: 16:10
+- Где на сайте: /prostranstva/fitnes/
+- Alt: Макет фитнес-клуба: ресепшн, зал, раздевалки, бассейн
+
+```text
+Monochrome 3D clay render: everything is made of smooth matte white plaster, no colours, no textures, no text, no logos, no people. Soft diffused studio light from the upper left, gentle ambient occlusion and soft shadows. Background: seamless pale powder-blue gradient from #C9D8EC at the edges to #E3EBF5 in the centre, fading into the background at the bottom. Calm, premium, minimal, very clean, high detail.
+Subject: an isometric cut-away architectural maquette (like an architect's white study model) of a premium fitness club, seen from the front at a 30° angle, the front wall removed so the interior is visible. Furniture and objects are simplified but recognisable.
+Layout (important, the website places clickable points on these areas): left — a reception desk; centre — a gym floor with treadmills and a weight rack; right-bottom — a locker room with benches; right-top — a small pool and a sauna door.
 The model is centred and occupies about 80% of the width, with air around it. Aspect ratio 16:10.
 ```
 
