@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#D6E2F0">
 <script>document.documentElement.classList.add('js')</script>
+<script>window.dataLayer=window.dataLayer||[];</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600&family=Mulish:wght@400;500;600;700&display=swap">
@@ -26,20 +27,22 @@
 <a class="skip" href="#main">К содержанию</a>
 <header class="hdr">
   <a class="logo" href="/aua-maison/" aria-label="ÁUA — на главную">ÁUA</a>
-  <span class="meta">// Астана</span>
-  <span class="meta meta-2">// премиальная ароматизация</span>
-  <a class="hdr-cta" href="#kontakt">Подобрать аромат</a>
+  <nav class="hnav" aria-label="Разделы"><a href="/aua-maison/prostranstva/">Пространства</a><a href="/aua-maison/signature/">Фирменный аромат</a><a href="/aua-maison/metod/">Метод</a><a href="/aua-maison/kollekciya/">Коллекция</a><a href="/aua-maison/zhurnal/">Журнал</a></nav>
+  <a class="hdr-cta" href="/aua-maison/#degustaciya">Дегустация</a>
   <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
 </header>
 <nav class="menu" id="menu" aria-label="Основное меню">
   <div class="menu-in">
-    <ol class="menu-main"><li><a href="/aua-maison/prostranstva/"><span>01</span>Пространства</a></li><li><a href="/aua-maison/kollekciya/"><span>02</span>Коллекция ароматов</a></li><li><a href="/aua-maison/signature/"><span>03</span>Фирменный аромат</a></li><li><a href="/aua-maison/aromamarketing/"><span>04</span>Аромамаркетинг</a></li><li><a href="/aua-maison/metod/"><span>05</span>Метод</a></li><li><a href="/aua-maison/usloviya/"><span>06</span>Условия</a></li><li><a href="/aua-maison/zhurnal/"><span>07</span>Журнал</a></li><li><a href="/aua-maison/kontakty/"><span>08</span>Контакты</a></li></ol>
+    <ol class="menu-main"><li><a href="/aua-maison/prostranstva/"><span>01</span>Пространства</a></li><li><a href="/aua-maison/signature/"><span>02</span>Фирменный аромат</a></li><li><a href="/aua-maison/aromabrending/"><span>03</span>Аромабрендинг</a></li><li><a href="/aua-maison/metod/"><span>04</span>Метод</a></li><li><a href="/aua-maison/kollekciya/"><span>05</span>Коллекция</a></li><li><a href="/aua-maison/zhurnal/"><span>06</span>Журнал</a></li><li><a href="/aua-maison/brif/"><span>07</span>Бриф</a></li><li><a href="/aua-maison/kontakty/"><span>08</span>Контакты</a></li></ol>
     <div class="menu-side">
       <p class="menu-k">// пространства</p>
       <a href="/aua-maison/prostranstva/otel/">Аромат отеля</a><a href="/aua-maison/prostranstva/butik/">Аромат бутика</a><a href="/aua-maison/prostranstva/restoran/">Аромат ресторана</a><a href="/aua-maison/prostranstva/spa/">Аромат спа</a><a href="/aua-maison/prostranstva/rezidenciya/">Аромат резиденции</a><a href="/aua-maison/prostranstva/ofis/">Аромат офиса</a><a href="/aua-maison/prostranstva/avtosalon/">Аромат автосалона</a><a href="/aua-maison/prostranstva/klinika/">Аромат клиники</a><a href="/aua-maison/prostranstva/salon-krasoty/">Аромат салона красоты</a><a href="/aua-maison/prostranstva/fitnes/">Аромат фитнес-клуба</a>
+      <p class="menu-k">// ещё</p>
+      <a href="/aua-maison/aromamarketing/">Аромамаркетинг</a>
+      <a href="/aua-maison/dizajneram/">Для дизайнеров</a>
       <p class="menu-k">// связь</p>
       <a href="tel:+77079479977">+7 707 947-99-77</a>
-      <a href="https://wa.me/77079479977" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://wa.me/77079479977?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%C3%81UA%2C%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%C2%AB%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%B0%20%E2%80%94%20%C3%81UA%C2%BB." target="_blank" rel="noopener">WhatsApp</a>
     </div>
   </div>
 </nav>
@@ -51,14 +54,18 @@
   <div class="wrap ftr-in">
     <div>
       <a class="logo" href="/aua-maison/">ÁUA</a>
-      <p>Премиальная ароматизация пространств в Астане: отели, бутики, рестораны, спа, резиденции и офисы.</p>
+      <p>Премиальная ароматизация и фирменный аромат для отелей, бутиков, ресторанов, резиденций и офисов в Астане.</p>
     </div>
     <nav aria-label="Пространства"><p class="ftr-k">// пространства</p><a href="/aua-maison/prostranstva/otel/">Аромат отеля</a><a href="/aua-maison/prostranstva/butik/">Аромат бутика</a><a href="/aua-maison/prostranstva/restoran/">Аромат ресторана</a><a href="/aua-maison/prostranstva/spa/">Аромат спа</a><a href="/aua-maison/prostranstva/rezidenciya/">Аромат резиденции</a><a href="/aua-maison/prostranstva/ofis/">Аромат офиса</a><a href="/aua-maison/prostranstva/avtosalon/">Аромат автосалона</a><a href="/aua-maison/prostranstva/klinika/">Аромат клиники</a><a href="/aua-maison/prostranstva/salon-krasoty/">Аромат салона красоты</a><a href="/aua-maison/prostranstva/fitnes/">Аромат фитнес-клуба</a></nav>
-    <nav aria-label="Разделы"><p class="ftr-k">// разделы</p><a href="/aua-maison/kollekciya/">Коллекция ароматов</a><a href="/aua-maison/signature/">Фирменный аромат</a><a href="/aua-maison/aromamarketing/">Аромамаркетинг</a><a href="/aua-maison/metod/">Метод</a><a href="/aua-maison/usloviya/">Условия</a><a href="/aua-maison/zhurnal/">Журнал</a><a href="/aua-maison/kontakty/">Контакты</a></nav>
-    <address><p class="ftr-k">// контакты</p><a href="tel:+77079479977">+7 707 947-99-77</a><a href="https://wa.me/77079479977" target="_blank" rel="noopener">WhatsApp</a><a href="https://2gis.kz/astana/search/%D0%91%D0%B0%D0%BB%D0%BA%D0%B0%D0%BD%D1%82%D0%B0%D1%83%2092" target="_blank" rel="noopener">Астана, ул. Балкантау, 92, 4 этаж, офис 89</a><span>Пн–Пт, 09:00–19:00</span></address>
+    <nav aria-label="Разделы"><p class="ftr-k">// разделы</p><a href="/aua-maison/signature/">Фирменный аромат</a><a href="/aua-maison/aromabrending/">Аромабрендинг</a><a href="/aua-maison/metod/">Метод</a><a href="/aua-maison/kollekciya/">Коллекция</a><a href="/aua-maison/zhurnal/">Журнал</a><a href="/aua-maison/brif/">Бриф</a><a href="/aua-maison/aromamarketing/">Аромамаркетинг</a><a href="/aua-maison/dizajneram/">Для дизайнеров</a><a href="/aua-maison/usloviya/">Условия и цены</a></nav>
+    <address><p class="ftr-k">// контакты</p><a href="tel:+77079479977">+7 707 947-99-77</a><a href="https://wa.me/77079479977?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%C3%81UA%2C%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%C2%AB%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%B0%20%E2%80%94%20%C3%81UA%C2%BB." target="_blank" rel="noopener">WhatsApp</a><a href="https://2gis.kz/astana/search/%D0%91%D0%B0%D0%BB%D0%BA%D0%B0%D0%BD%D1%82%D0%B0%D1%83%2092" target="_blank" rel="noopener">Астана, ул. Балкантау, 92, 4 этаж, офис 89</a><span>Пн–Пт, 09:00–19:00</span><a href="/aua-maison/kontakty/">Все контакты</a></address>
   </div>
   <div class="wrap ftr-bot"><span>// © 2026 ÁUA</span><a href="/aua-maison/politika-konfidencialnosti/">Политика конфиденциальности</a></div>
 </footer>
+<div class="mobbar" role="navigation" aria-label="Связь">
+  <a class="mb-wa" href="https://wa.me/77079479977?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%C3%81UA%2C%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%C2%AB%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%B0%20%E2%80%94%20%C3%81UA%C2%BB." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 19z"/><path d="M9 9.2c.3 1.6 2.2 3.6 3.9 4.1l1.2-1 1.7.8c-.2 1-1 1.7-2 1.6-2.9-.3-5.9-3.2-6.2-6.1-.1-1 .6-1.8 1.6-2l.8 1.7z"/></svg>WhatsApp</a>
+  <a class="mb-brief" href="/aua-maison/brif/" data-ev="brief_open"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8M9 4v2h6V4"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="m9 13 2 2 4-4"/></svg>Бриф</a>
+</div>
 <script src="/aua-maison/assets/js/data.js"></script>
 <script src="/aua-maison/assets/js/main.js"></script>
 </body>
